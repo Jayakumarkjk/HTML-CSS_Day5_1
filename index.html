@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>EVENT 1</h1>
+    <p>Number of available seats: 23</p>
+
+      <form>
+        <div class="card" >
+          <i class="fa-solid fa-circle"></i>
+          </div>
+
+        <div>
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="msg">Phone No:</label>
+              <input type="phone" id="phone" name="user_phone" />
+            </li>
+            <li>
+              <label for="msg">Number of Seats:</label>
+              <select class="seat" id="seats">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                </select>
+            </li>
+            <li>
+              <label for="msg">Name of Attendee 2:</label>
+              <input type="attendee" id="attendee" name="user_attendee" />
+            </li>
+          </ul> 
+              </div>
+
+            
+<div class="prime">
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+        <button type="cancel" class="btn btn-primary">Cancel</button>
+
+      </div>
+    </div>
+      </form>
+
+</body>
+</html>
